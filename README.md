@@ -5,6 +5,9 @@ systemctl reload docker.service
 service jenkins restart
 service docker restart
 
+#for connecting to docker master from jenkins serveruse below command
+#docker -H tcp://10.1.1.1:2375(master ip address) docker commands
+
 
 pipeline {
     environment {
