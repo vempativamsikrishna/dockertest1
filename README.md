@@ -1,4 +1,4 @@
-# jenkins auto build and bush image
+# jenkins auto build and push image
 
 usermod -aG root jenkins
 systemctl reload docker.service
